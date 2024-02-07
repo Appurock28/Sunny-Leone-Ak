@@ -23,6 +23,7 @@ import aiohttp
 from shortzy import Shortzy
 import http.client
 import json
+from config import Config
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
