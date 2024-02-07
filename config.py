@@ -14,7 +14,7 @@ def is_enabled(value, default):
 class Config(object):
    
 
-    TECH_VJ_SESSION_NAME = "Renamer Bot"
+    TECH_VJ_SESSION_NAME = "ADVANCE AUTOFILTER BOT"
 
     TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "")
     TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "") # Bot username without @.
