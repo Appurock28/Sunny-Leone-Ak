@@ -39,6 +39,14 @@ SMART_OPEN = '“'
 SMART_CLOSE = '”'
 START_CHAR = ('\'', '"', SMART_OPEN)
 
+TOKENS = {}
+VERIFIED = {}
+
+LOG_TEXT_P = """#NewUser
+ID - <code>{}</code>
+Nᴀᴍᴇ - {}"""
+
+
 # temp db for banned 
 class temp(object):
     BANNED_USERS = []
