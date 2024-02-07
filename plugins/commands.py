@@ -16,7 +16,8 @@ import re, asyncio, os, sys
 import json
 import base64
 logger = logging.getLogger(__name__)
-from helper.utils import verify_user, check_token, check_verification, get_token
+from utils import verify_user, check_token, check_verification, get_token
+from config import Config
 
 BATCH_FILES = {}
 
