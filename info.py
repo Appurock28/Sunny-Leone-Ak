@@ -1,4 +1,4 @@
-import re
+SWimport re
 from os import environ,getenv
 from Script import script 
 
@@ -36,7 +36,7 @@ auth_channel = environ.get('AUTH_CHANNEL','-1001627812746')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', 'Aklinksz_Support_bot')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', 'https://t.me/Tamizh_Official_bot)
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001913342628')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
@@ -56,13 +56,13 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/aklinks_1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Aklinksz')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/aklinksz_Backup')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/What_Movie_Do_You_Want')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Disney_Linkzzzz')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Disney_tutorial')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello Darlings...❤️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001614975178'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Aklinksz_Support_bot')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Tamizh_Official_bot)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
