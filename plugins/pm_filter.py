@@ -2422,7 +2422,7 @@ async def manual_filters(client, message, text=False):
                         joelkb = await client.send_cached_media(
                             group_id,
                             fileid,
-                            capti minon=reply_text or "",
+                            caption=reply_text or "",
                             protect_content=True if settings["file_secure"] else False,
                             reply_to_message_id=reply_id
                         )
